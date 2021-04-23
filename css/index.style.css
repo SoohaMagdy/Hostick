@@ -1,0 +1,112 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    background-image: url(../images/bg1.png);
+    background-color:#5368f1 ;
+    background-position: top center;
+    height: 100vh;
+}
+.bg-overlay{background-color:rgba(53, 64, 78, 0.45); }
+header p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18;
+    font-weight: 400;
+}
+.service , .price-card{
+    border-radius: 10px;
+    transition: all 0.5;
+}
+.service img{
+    width:25%;
+    padding:10px;
+    background-color: #F3F5FE;
+    border:3px solid #D4DBFB;
+    border-radius: 10px;
+}
+.service:hover , .price-card:hover .btn , .btn:hover , form button:hover{box-shadow: 0 10px 25px rgba(53, 64, 78, 0.15);}
+.service h5:hover{
+    color: #5368F1;
+    cursor: pointer;
+}
+.powered
+{
+    background-color: #5368F1;
+    margin: 10px;
+    border-radius: 10px;
+}
+.powered li {color: rgba(255, 255, 255, 0.5);}
+.feature{
+    border-radius: 10px;
+    transition: all 0.5;
+}
+.feature i{color: #5368f1 ;}
+.feature p{color: #8492a6 ;}
+.feature:hover {background-color: #5368F1 !important;}
+.feature:hover i{color:#ADB7F8 !important;}
+.feature:hover .feature-data h5{color: #FFF !important;}
+.feature:hover .feature-data p{color: rgba(255, 255, 255, 0.5) !important;}
+#pricing{background-color: #F6F7FA;}
+.price-name{border-radius: 10px 10px 0 0;}
+.price-card:hover .price-name{background-color: #5368F1;}
+.price-card:hover .price-name h4{color: #FFF;}
+.price-card:hover .price-name p{color: rgba(255, 255, 255, 0.5) !important;}
+.price-body h2{
+    font-size: 40px;
+    position: relative;
+}
+.price-body h2::before{
+    content:"$";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #8492a6;
+}
+.price-body h2 span{
+    font-size: 20px;
+    color: #8492a6;
+    font-weight: normal;
+}
+.price-body button , #faq button , form button{
+    background-color: #5368F1 !important;
+    transition: all 0.5;
+}
+.price-body button:hover , #faq button:hover , form button:hover{transform: translateY(-5px);}
+.card2{
+    overflow: hidden;
+    position: relative;
+}
+.card2::before{
+    content:"BEST";
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #FFBB44;
+    top: 20;
+    right: -40;
+    width: 150px;
+    height: 25px;
+    transform: rotate(45deg);
+}
+.card2:hover .card2::before{
+    color: #5368F1;
+    background-color: #FFF;
+}
+.test-text p{
+    border: 1px solid #8492a6;
+    border-radius: 5px;
+}
+footer{background-color: #3C4756;}
+footer .social i {
+    color: #D4DBFB;
+    border: 1px solid #D4DBFB;
+    border-radius: 3px;
+}
+footer .social i:hover {
+    background-color: #5368F1;
+    border:#5368F1;
+}
